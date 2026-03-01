@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Roboto Serif, Times, sans-serif;
 }
 
 body {
@@ -7,9 +8,7 @@ body {
     margin: 0;
 }
 
-header {
-    font-family: Roboto Serif, Times, sans-serif;
-}
+
 
 .hero {
     background-color: #1f2937;
@@ -30,4 +29,26 @@ a {
 .hero-sub {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+}
+
+.text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.book-here-button {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
