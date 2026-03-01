@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    font-family: Roboto Serif, Times, sans-serif;
+}
+
+.hero {
+    background-color: #1f2937;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #f9fAf8;
+}
+
+.hero-header {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9fAf8;
+}
+
+.hero-sub {
+    color: #e5e7eb;
+    font-size: 18px;
+}
