@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Roboto Serif, Times, sans-serif;
+    
 }
 
 body {
@@ -8,21 +9,42 @@ body {
     margin: 0;
 }
 
-
-
-#logo {
-    height: 100px;
-}
-
-.hero {
-    background-color: #1f2937;
-}
-
 a {
     text-decoration: none;
     list-style-type: none;
     color: #f9fAf8;
 }
+
+#logo {
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero {
+    background-color: #1f2937;
+}
+
+
 
 .hero-header {
     font-weight: 900;
@@ -39,6 +61,10 @@ a {
     height: 300px;
 }
 
+.hero-text-container {
+    
+}
+
 .information-header {
     font-size: 36px;
     font-weight: 900;
@@ -49,6 +75,17 @@ a {
 .card {
     font-size: 20px;
     font-weight: 300;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.crop-container {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .text {
@@ -67,12 +104,14 @@ a {
 .book-here-button {
     background-color: #3882f6;
     color: #f9faf8;
+    border: 8px #f9faf8;
 }
 
 .call-to-action {
     margin: 64px;
     padding: 32px;
     background-color: #3882f6;
+    border-radius: 10px;
 }
 
 footer {
