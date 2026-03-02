@@ -131,28 +131,32 @@ img {
     border-radius: 8px;
     display: flex;
     align-self: flex-start;
+    border-style: none;
 }
 
 .book-here-button {
     background-color: #3882f6;
     color: #f9faf8;
     border-color: #f9faf8;
+    padding: 8px;
     border-radius: 8px;
     display: flex;
     align-self: center;
+    border-style: solid;
 }
 
 .call-to-action {
-    margin: 100px 300px;
+    margin: 200px 400px;
     padding: 32px;
     background-color: #3882f6;
     border-radius: 10px;
     justify-content: start;
+    flex: auto;
 }
 
 .call-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: start;
 }
 
@@ -161,7 +165,6 @@ img {
     display: flex;
     flex-direction: column;
     align-self: center;
-    width: 350px;
 }
 
 .call-text {
