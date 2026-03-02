@@ -7,6 +7,9 @@
 body {
     height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
 }
 
 a {
@@ -16,43 +19,45 @@ a {
 }
 
 #logo {
-    height: 50px;
+    margin: 8px;
+    max-height: 50px;
+    display: flex;
+}
+
+nav {
+    margin: 0px 225px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 ul {
     display: flex;
-    margin-left: 500px;
-    margin-top: 0;
-    gap: 20px;
-    align-self: flex-start;
+    gap: 50px;
 }
 
 header {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: space-between;
     flex-direction: column;
+    flex: auto;
 }
 
 .hero {
     background-color: #1f2937;
-    padding: 25px;
     display: flex;
     flex-direction: column;
+    flex: auto;
 }
-
-nav {
-    margin: 0px;
-    padding: 16px;
-    display: flex;
-}
-
 
 
 .hero-header {
     font-weight: 900;
     font-size: 48px;
     color: #f9fAf8;
+    flex: auto;
 }
 
 .hero-sub {
@@ -62,18 +67,21 @@ nav {
 
 #hero-image {
     height: 300px;
+    align-self: center;
 }
 
 .hero-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 100px;
+    padding: 100px 250px;
 }
 
 .hero-text-container {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    justify-content: center;
+    flex: auto;
 }
 
 .information-header {
@@ -86,6 +94,12 @@ nav {
 .card {
     font-size: 20px;
     font-weight: 300;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    flex-basis: 0px;
+    margin-bottom: 100px;
 }
 
 img {
@@ -93,10 +107,15 @@ img {
 }
 
 .crop-container {
-    height: 200px;
-    width: 200px;
-    overflow: hidden;
     border-radius: 10px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 50px;
 }
 
 .text {
@@ -104,23 +123,29 @@ img {
     color: #616975;
     font-weight: 300;
     font-style: italic;
+    display: flex;
+    margin: 25px 250px;
+    padding: 25px 25px;
 }
 
 .sign-up-button {
-    display: flex;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-self: flex-start;
 }
 
 .book-here-button {
     background-color: #3882f6;
     color: #f9faf8;
     border: 8px #f9faf8;
+    border-radius: 8px;
 }
 
 .call-to-action {
-    margin: 64px;
+    margin: 100px 200px;
     padding: 32px;
     background-color: #3882f6;
     border-radius: 10px;
@@ -132,3 +157,26 @@ footer {
        padding: 32px;
 }
 
+
+.information-header {
+    padding: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-card {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+
+.main-section {
+    margin: 25px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px
+}
