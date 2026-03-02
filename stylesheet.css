@@ -54,7 +54,7 @@ header {
     font-weight: 900;
     font-size: 48px;
     color: #f9fAf8;
-    flex: auto;
+    margin-bottom: 0;
 }
 
 .hero-sub {
@@ -69,7 +69,6 @@ header {
 
 .hero-container {
     display: flex;
-    justify-content: flex-start;
     gap: 100px;
     padding: 100px 250px;
 }
@@ -140,7 +139,7 @@ img {
     border-color: #f9faf8;
     border-radius: 8px;
     display: flex;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .call-to-action {
@@ -148,27 +147,32 @@ img {
     padding: 32px;
     background-color: #3882f6;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
+    justify-content: start;
 }
 
 .call-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: start;
 }
 
 .call-contents {
+    color: #f9faf8;
     display: flex;
     flex-direction: column;
-    align-self: start;
+    align-self: center;
+    width: 350px;
+}
+
+.call-text {
+    margin-bottom: 0;
 }
 
 footer {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 32px;
+    text-align: center;
 }
 
 
