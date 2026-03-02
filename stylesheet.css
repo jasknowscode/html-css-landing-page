@@ -7,9 +7,6 @@
 body {
     height: 100vh;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    flex: auto;
 }
 
 a {
@@ -115,7 +112,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-top: 50px;
+    padding: 75px;
 }
 
 .text {
@@ -140,21 +137,38 @@ img {
 .book-here-button {
     background-color: #3882f6;
     color: #f9faf8;
-    border: 8px #f9faf8;
+    border-color: #f9faf8;
     border-radius: 8px;
+    display: flex;
+    align-self: flex-start;
 }
 
 .call-to-action {
-    margin: 100px 200px;
+    margin: 100px 300px;
     padding: 32px;
     background-color: #3882f6;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.call-contents {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
 }
 
 footer {
-       background-color: #1f2937;
-       color: #f9faf8;
-       padding: 32px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 32px;
 }
 
 
