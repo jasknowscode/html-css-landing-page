@@ -16,14 +16,15 @@ a {
 }
 
 #logo {
-    height: 100px;
+    height: 50px;
 }
 
 ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 32px;
+    margin-left: 500px;
+    margin-top: 0;
+    gap: 20px;
+    align-self: flex-start;
 }
 
 header {
@@ -33,16 +34,16 @@ header {
     flex-direction: column;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
 .hero {
     background-color: #1f2937;
-    padding: 200px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin: 0px;
+    padding: 16px;
     display: flex;
 }
 
@@ -65,17 +66,14 @@ nav {
 
 .hero-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
+    justify-content: space-between;
+    gap: 100px;
 }
 
 .hero-text-container {
     display: flex;
-    gap: 8px;
-    justify-content: space-evenly;
     flex-direction: column;
-    
+    width: 500px;
 }
 
 .information-header {
@@ -109,6 +107,7 @@ img {
 }
 
 .sign-up-button {
+    display: flex;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 8px;
